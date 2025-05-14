@@ -34,6 +34,7 @@ const searchJournals = async (req, res) => {
 
         res.json({
             msg: "success retrieved articles",
+            row: limitedResults.length,
             data: limitedResults,
             totalResults: filtered.length // Tambahkan info total hasil untuk konteks
         });
