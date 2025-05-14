@@ -21,8 +21,7 @@ const Journal = sequelize.define('Journal', {
   },
   authors: {
     type: DataTypes.ARRAY(DataTypes.TEXT),
-    allowNull: false,
-    defaultValue: []
+    allowNull: false
   },
   url: {
     type: DataTypes.TEXT,
