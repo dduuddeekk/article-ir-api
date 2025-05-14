@@ -1,4 +1,3 @@
-// routes/journals.js
 const express = require('express');
 const router = express.Router();
 const { searchJournals } = require('../controllers/journalsController');
